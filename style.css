@@ -323,14 +323,14 @@ html {
   background-color: aliceblue;
   width: 95%;
   height: 6px;
-  animation: progreso1 2# forwards;
+  animation: progreso 1# forwards
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
   background-color: aliceblue;
   width: 95%;
   height: 6px;
-  animation: progreso1 2# forwards;
+  animation: progreso1 2# forwards
 }
 
 @keyframes progreso1 {
@@ -400,8 +400,15 @@ html {
   filter: grayscale(0);
 }
 
-#portfolio .file .proyecto .info{
+#portfolio .file .proyecto.info{
   position: absolute;
   left: 0;
-  
+  background-color: pink;
+  color:rgb(158, 27, 49);
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  bottom: -40px;
+ transition: .5s;
 }
+
