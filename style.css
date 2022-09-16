@@ -323,14 +323,14 @@ html {
   background-color: aliceblue;
   width: 95%;
   height: 6px;
-  animation: progreso 1# forwards
+  animation: progreso 1# forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
   background-color: aliceblue;
   width: 95%;
   height: 6px;
-  animation: progreso1 2# forwards
+  animation: progreso1 2# forwards;
 }
 
 @keyframes progreso1 {
@@ -400,15 +400,73 @@ html {
   filter: grayscale(0);
 }
 
-#portfolio .file .proyecto.info{
+#portfolio .file .proyecto.info {
   position: absolute;
   left: 0;
   background-color: pink;
-  color:rgb(158, 27, 49);
+  color: rgb(158, 27, 49);
   width: 100%;
   padding: 10px;
   opacity: 0;
   bottom: -40px;
- transition: .5s;
+  transition: 0.5s;
 }
 
+.container {
+  display: flex;
+  width: 920px;
+  height: auto;
+  margin: 30px auto;
+}
+.box {
+  width: 32%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-right: 1%;
+  background: white;
+  border-radius: 10px;
+  transition: 0.9;
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h3,
+p {
+  text-align: center;
+  color: rgb(104, 92, 92);
+}
+p {
+  font-size: 15px;
+  padding: 0 5px;
+}
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 85%;
+    display: block;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+}
+
+#habilidades p{
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 5px;
+}
