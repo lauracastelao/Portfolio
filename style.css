@@ -20,7 +20,7 @@ html {
 }
 
 #inicio .contenido header {
-  background-color: hsl(0, 0%, 0%);
+  background-color: #827081;
 
   position: fixed;
   width: 100%;
@@ -62,7 +62,7 @@ html {
   letter-spacing: 5px;
 }
 #inicio .contenido header .contenido-header nav ul a:hover {
-  color: yellow;
+  color: rgb(0, 0, 0);
 }
 
 #inicio .contenido .presentacion {
@@ -91,7 +91,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
   font-size: 55px;
-  color: rgb(218, 142, 196);
+  color: #c6d2ed;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -150,7 +150,7 @@ html {
   height: 200px;
   width: 200px;
   border-radius: 20px;
-  background-color: rgb(155, 65, 65);
+  background-color: #b1b5c8;
 }
 #sobremi .sobremi {
   margin: 0 40px;
@@ -161,7 +161,7 @@ html {
   text-transform: uppercase;
   color: black;
   text-decoration: underline;
-  text-decoration-color: rgb(211, 74, 74);
+  text-decoration-color: b1b5c8;
   text-decoration-thickness: 5px;
 }
 #sobremi .sobremi h2 {
@@ -180,12 +180,13 @@ html {
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 1px;
+  color: #827081;
 }
 
 #sobremi .sobremi p {
   font-size: 14px;
   line-height: 25px;
-  color: rgb(192, 87, 48);
+  color: rgb(0, 0, 0);
   margin-bottom: 12px;
 }
 
@@ -208,7 +209,7 @@ html {
 #servicios {
   padding: 100px 15px;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: rgb(247, 240, 240);
 }
 
 #servicios .titulo-seccion {
@@ -216,7 +217,7 @@ html {
   text-transform: uppercase;
   color: black;
   text-decoration: underline;
-  text-decoration-color: rgb(211, 74, 74);
+  text-decoration-color: #827081;
   text-decoration-thickness: 5px;
 }
 
