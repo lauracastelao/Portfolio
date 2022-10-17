@@ -91,7 +91,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
   font-size: 55px;
-  color: #c6d2ed;
+  color: #827081;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -150,7 +150,7 @@ html {
   height: 200px;
   width: 200px;
   border-radius: 20px;
-  background-color: #b1b5c8;
+  background-color: #c3b1c8;
 }
 #sobremi .sobremi {
   margin: 0 40px;
@@ -209,7 +209,7 @@ html {
 #servicios {
   padding: 100px 15px;
   text-align: center;
-  background-color: rgb(247, 240, 240);
+  background-color: rgb(225, 222, 233);
 }
 
 #servicios .titulo-seccion {
@@ -217,7 +217,7 @@ html {
   text-transform: uppercase;
   color: black;
   text-decoration: underline;
-  text-decoration-color: #827081;
+  text-decoration-color: hsl(300, 3%, 69%);
   text-decoration-thickness: 5px;
 }
 
